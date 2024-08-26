@@ -3,7 +3,7 @@ const option2 = document.querySelector(".option-2");
 const button = document.querySelector(".btn");
 const result = document.querySelector(".result");
 const amount = document.querySelector(".amount"); 
-const api_key = "cur_live_gmpVvt2D3NcfbUghWF1HFyUWBkVomdw7r1hURRld";
+const api_key = ${{ secrets.API_KEY }};
 
 amount.addEventListener("input", () => {
     const regex = /^[0-9]*\.?[0-9]*$/;
